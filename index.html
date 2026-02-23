@@ -4,94 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Holi Surprise</title>
+    <script src="https://pl28748930.effectivegatecpm.com/b8/68/e8/b868e833caa23ab6a4966117241a738b.js"></script>
     <style>
-        /* पूरी स्क्रीन की सेटिंग */
         body, html { margin: 0; padding: 0; width: 100%; height: 100%; background-color: #000; color: #fff; text-align: center; font-family: 'Arial', sans-serif; overflow-x: hidden; }
         
-        /* ऊपर का बैनर एड बॉक्स */
-        #top-banner {
-            position: fixed; top: 0; left: 0; width: 100%; height: 80px;
-            background: #111; border-bottom: 2px solid #333; z-index: 9999;
-            display: flex; justify-content: center; align-items: center;
-        }
+        /* एड्स के लिए फिक्स्ड जगह */
+        #top-ads { width: 100%; padding: 5px 0; background: #111; }
+        #bottom-ads { width: 100%; padding: 5px 0; background: #111; position: fixed; bottom: 0; left: 0; z-index: 100; }
 
-        /* नीचे का बैनर एड बॉक्स */
-        #bottom-banner {
-            position: fixed; bottom: 0; left: 0; width: 100%; height: 80px;
-            background: #111; border-top: 2px solid #333; z-index: 9999;
-            display: flex; justify-content: center; align-items: center;
-        }
-
-        /* कंटेंट को एड्स के बीच में सेट करना */
-        .main-container { padding: 90px 10px 100px 10px; }
-
+        .main-container { padding: 10px 10px 120px 10px; }
         .name-style { font-size: 38px; color: #ffff00; font-weight: bold; text-shadow: 2px 2px #ff0000; margin-bottom: 10px; }
         .wish-text { font-size: 22px; color: #00ff00; margin-bottom: 20px; font-weight: bold; }
         .holi-gif { width: 95%; max-width: 350px; border-radius: 20px; border: 4px solid #f0f; box-shadow: 0 0 15px #f0f; }
 
         .form-box { background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 20px; margin-top: 25px; border: 2px solid #25D366; }
-        input { width: 80%; padding: 12px; border-radius: 10px; font-size: 18px; text-align: center; margin-bottom: 15px; }
+        input { width: 85%; padding: 15px; border-radius: 10px; font-size: 18px; text-align: center; margin-bottom: 15px; border: none; }
         
         .whatsapp-share { 
             background: #25D366; color: white; padding: 15px; border-radius: 50px; 
             font-size: 20px; font-weight: bold; display: flex; align-items: center; 
             justify-content: center; gap: 10px; cursor: pointer; text-decoration: none;
+            box-shadow: 0 4px 15px rgba(37,211,102,0.4);
         }
+
+        /* शैडो बॉट बटन की सेटिंग */
+        #shadow-bot-box {
+            margin-top: 30px; padding: 20px; border-radius: 20px;
+            background: linear-gradient(135deg, #222, #000);
+            border: 2px solid #ff4757; opacity: 0.5; pointer-events: none; /* शुरू में बंद रहेगा */
+            transition: 0.5s;
+        }
+        #shadow-bot-box.unlocked { opacity: 1; pointer-events: auto; border: 3px solid #00ff00; }
+        
+        .dl-btn {
+            background: #ff4757; color: white; padding: 15px; display: block;
+            text-decoration: none; border-radius: 10px; font-weight: bold; font-size: 20px;
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse { 0% {transform: scale(1);} 50% {transform: scale(1.05);} 100% {transform: scale(1);} }
     </style>
 </head>
 <body>
 
-<div id="top-banner">
-    <script type="text/javascript">
-        atOptions = { 'key' : '96a0f2ab82d19ac7b603303e0f9e75b6', 'format' : 'iframe', 'height' : 60, 'width' : 468, 'params' : {} };
-    </script>
-    <script src="https://www.highperformanceformat.com/96a0f2ab82d19ac7b603303e0f9e75b6/invoke.js"></script>
+<div id="top-ads">
+    <center>
+        <script>
+            atOptions = { 'key' : '4a291b8736b2f8424be3429ee0981c36', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+        </script>
+        <script src="https://www.highperformanceformat.com/4a291b8736b2f8424be3429ee0981c36/invoke.js"></script>
+    </center>
 </div>
 
 <div class="main-container">
     <div class="name-style" id="nameDisplay">दोस्त</div>
     <div class="wish-text">की तरफ से आपको <br> Happy Holi!</div>
     
-    <img src="holi.gif" class="holi-gif">
+    <img src="holi.gif" class="holi-gif" alt="Holi GIF">
+
+    <div style="margin: 20px 0;">
+        <script async="async" data-cfasync="false" src="//pl28749123.effectivegatecpm.com/6dae37f30a2ab7ad51a5de2a1bbc00db/invoke.js"></script>
+        <div id="container-6dae37f30a2ab7ad51a5de2a1bbc00db"></div>
+    </div>
 
     <div class="form-box">
         <input type="text" id="nameIn" placeholder="अपना नाम यहाँ लिखें">
         <div class="whatsapp-share" onclick="shareNow()">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="25">
-            सबको भेजें
+            सबको भेजें और बटन खोलें
         </div>
+    </div>
+
+    <div id="shadow-bot-box">
+        <p id="lock-msg" style="color: #ff4757; font-size: 14px;">🔒 बटन खोलने के लिए ऊपर व्हाट्सएप पर शेयर करें</p>
+        <a href="यहाँ_अपने_6_स्टेप_वाले_अर्निंग_पेज_का_लिंक_डालें" class="dl-btn" id="dlBtn">🚀 DOWNLOAD SHADOW BOT</a>
     </div>
 </div>
 
-<div id="bottom-banner">
-    <script type="text/javascript">
-        atOptions = { 'key' : '96a0f2ab82d19ac7b603303e0f9e75b6', 'format' : 'iframe', 'height' : 60, 'width' : 468, 'params' : {} };
-    </script>
-    <script src="https://www.highperformanceformat.com/96a0f2ab82d19ac7b603303e0f9e75b6/invoke.js"></script>
+<div id="bottom-ads">
+    <center>
+        <script>
+            atOptions = { 'key' : '7b43048f443397e87dba6b79e78de4ce', 'format' : 'iframe', 'height' : 50, 'width' : 320, 'params' : {} };
+        </script>
+        <script src="https://www.highperformanceformat.com/7b43048f443397e87dba6b79e78de4ce/invoke.js"></script>
+    </center>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 <script>
-    // पटाखे वाला इफेक्ट
     setInterval(() => {
-        confetti({ particleCount: 80, spread: 60, origin: { x: Math.random(), y: 0.6 } });
-    }, 500);
+        confetti({ particleCount: 50, spread: 60, origin: { x: Math.random(), y: 0.6 } });
+    }, 1000);
 
-    // URL से नाम दिखाना
     const params = new URLSearchParams(window.location.search);
     const n = params.get('name');
     if(n) document.getElementById('nameDisplay').innerText = decodeURIComponent(n);
 
-    // व्हाट्सएप शेयर फंक्शन
     function shareNow() {
         var user = document.getElementById('nameIn').value;
-        if(!user) { alert("भाई नाम तो लिखो!"); return; }
+        if(!user) { alert("भाई पहले अपना नाम तो लिखो!"); return; }
         
+        // बटन अनलॉक करना
+        document.getElementById('shadow-bot-box').classList.add('unlocked');
+        document.getElementById('lock-msg').innerHTML = "✅ बटन खुल गया! नीचे क्लिक करें 👇";
+        document.getElementById('lock-msg').style.color = "#00ff00";
+        document.getElementById('dlBtn').style.background = "#27ae60";
+
         var baseUrl = window.location.href.split('?')[0];
         var link = baseUrl + "?name=" + encodeURIComponent(user);
-        var text = "*" + user + "* ने आपके लिए एक सरप्राइज भेजा है! देखने के लिए नीली लिंक दबाएं 👇\n" + link;
+        var text = "*" + user + "* ने आपके लिए होली का जादू भेजा है! 🌈✨\nदेखने के लिए लिंक दबाएं 👇\n" + link;
         
-        window.location.href = "whatsapp://send?text=" + encodeURIComponent(text);
+        window.open("whatsapp://send?text=" + encodeURIComponent(text));
     }
 </script>
 
